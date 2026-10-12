@@ -8,7 +8,7 @@ ENV APP_DB_HOST 10.10.11.101
 
 CMD ["/sbin/my_init"]
 
-RUN apt-get update
+RUN apt-get -o Acquire::Check-Valid-Until=false -o Acquire::AllowInsecureRepositories=true update
 RUN apt-get --assume-yes install libyaml-dev sudo
 RUN apt-get --assume-yes install build-essential patch
 RUN rm -f /etc/service/nginx/down

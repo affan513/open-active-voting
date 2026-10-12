@@ -1,0 +1,18 @@
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/local/rvm/rubies/ruby-3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-fqlbgk sitelibdir\=./.gem.20261012-27-fqlbgk clean
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-fqlbgk sitelibdir\=./.gem.20261012-27-fqlbgk
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-fqlbgk sitelibdir\=./.gem.20261012-27-fqlbgk install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20261012-27-fqlbgk/racc
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-fqlbgk sitelibdir\=./.gem.20261012-27-fqlbgk clean

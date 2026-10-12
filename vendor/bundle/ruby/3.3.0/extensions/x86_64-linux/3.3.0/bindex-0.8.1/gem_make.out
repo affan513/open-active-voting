@@ -1,0 +1,18 @@
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/local/rvm/rubies/ruby-3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-szbjwv sitelibdir\=./.gem.20261012-27-szbjwv clean
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-szbjwv sitelibdir\=./.gem.20261012-27-szbjwv
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-szbjwv sitelibdir\=./.gem.20261012-27-szbjwv install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20261012-27-szbjwv/skiptrace/internal
+
+current directory: /home/app/oav_website/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20261012-27-szbjwv sitelibdir\=./.gem.20261012-27-szbjwv clean
