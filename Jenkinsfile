@@ -19,7 +19,7 @@ pipeline {
                 echo 'Building the Docker container...'
                 dir('docker') {
                     // Uses your docker-compose file to build the web image
-                    sh 'docker compose build --no-cache'
+                    sh 'docker-compose build --no-cache'
                 }
             }
         }
@@ -28,7 +28,8 @@ pipeline {
             steps {
                 echo 'Starting application containers...'
                 dir('docker') {
-                    sh 'docker compose up -d --force-recreate'
+                    // Updated to docker-compose to match the installed binary
+                    sh 'docker-compose up -d --force-recreate'
                 }
             }
         }
