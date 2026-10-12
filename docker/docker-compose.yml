@@ -14,5 +14,5 @@ services:
       - RAILS_MASTER_KEY=09ff3775589d504b96196c40b14aaca6
     volumes:
       # Removed file volume mounts to prevent Windows/Docker directory conflict errors
-      - ../../open-active-voting:/home/app/oav_website
+      - ../:/home/app/oav_website
     command: /sbin/my_init
